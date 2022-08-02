@@ -2813,15 +2813,15 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="4" x="30.48" y="10.16" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="50.165" y="62.23" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="15.24" y="46.99" smashed="yes">
-<attribute name="NAME" x="8.8138" y="48.8188" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="69" x="35.56" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.89" y="43.815" size="1.27" layer="27"/>
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="15.24" y="45.72" smashed="yes">
+<attribute name="NAME" x="8.8138" y="47.5488" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="69" x="35.56" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.89" y="42.545" size="1.27" layer="27"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="78.74" y="46.99" smashed="yes">
-<attribute name="NAME" x="72.3138" y="48.8188" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="69" x="113.03" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="72.39" y="43.815" size="1.27" layer="27"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="78.74" y="45.72" smashed="yes">
+<attribute name="NAME" x="72.3138" y="47.5488" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="69" x="113.03" y="3.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="72.39" y="42.545" size="1.27" layer="27"/>
 </element>
 <element name="TWE_L" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="46.99" y="17.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.8462" y="15.9512" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -2843,11 +2843,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="19.05" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20.6756" y="69.0626" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k" x="6.35" y="58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.0546" y="55.88" size="0.9906" layer="25" ratio="10" rot="R90"/>
-<attribute name="POPULARITY" value="79" x="6.35" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="6.35" y="58.42" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="6.8326" y="56.7944" size="0.9906" layer="27" ratio="10" rot="R90"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k" x="20.32" y="39.37" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.6154" y="41.91" size="0.9906" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="79" x="20.32" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="20.32" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.8374" y="40.9956" size="0.9906" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="BUTTON" library="con-jst-xh" package="B2B-XH" value="02-JST" x="11.43" y="10.16" smashed="yes">
 <attribute name="NAME" x="10.16" y="13.97" size="1.27" layer="25"/>
@@ -2887,20 +2887,19 @@ design rules under a new name.</description>
 <wire x1="83.82" y1="35.56" x2="83.82" y2="20.32" width="0.1524" layer="16"/>
 <wire x1="83.82" y1="20.32" x2="78.74" y2="15.24" width="0.1524" layer="16"/>
 <wire x1="78.74" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="16"/>
-<wire x1="22.86" y1="68.58" x2="22.86" y2="53.34" width="0.1524" layer="16"/>
-<wire x1="22.86" y1="53.34" x2="20.32" y2="50.8" width="0.1524" layer="16"/>
-<wire x1="20.32" y1="50.8" x2="20.32" y2="46.99" width="0.1524" layer="16"/>
 <wire x1="22.86" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="16"/>
 <wire x1="55.88" y1="68.58" x2="83.82" y2="68.58" width="0.1524" layer="16"/>
-<wire x1="83.82" y1="68.58" x2="83.82" y2="46.99" width="0.1524" layer="16"/>
+<wire x1="83.82" y1="68.58" x2="83.82" y2="45.72" width="0.1524" layer="16"/>
 <wire x1="53.34" y1="58.42" x2="55.88" y2="60.96" width="0.1524" layer="16"/>
 <wire x1="55.88" y1="60.96" x2="55.88" y2="68.58" width="0.1524" layer="16"/>
 <wire x1="83.82" y1="2.54" x2="86.36" y2="2.54" width="0.1524" layer="16"/>
 <wire x1="86.36" y1="2.54" x2="88.9" y2="5.08" width="0.1524" layer="16"/>
 <wire x1="88.9" y1="5.08" x2="88.9" y2="35.56" width="0.1524" layer="16"/>
 <wire x1="88.9" y1="35.56" x2="83.82" y2="35.56" width="0.1524" layer="16"/>
-<wire x1="83.82" y1="46.99" x2="83.82" y2="35.56" width="0.1524" layer="16"/>
-<wire x1="6.35" y1="54.61" x2="20.32" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="45.72" x2="83.82" y2="35.56" width="0.1524" layer="16"/>
+<wire x1="20.32" y1="45.72" x2="20.32" y2="43.18" width="0.1524" layer="16"/>
+<wire x1="20.32" y1="45.72" x2="22.86" y2="48.26" width="0.1524" layer="16"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="68.58" width="0.1524" layer="16"/>
 </signal>
 <signal name="3V3">
 <contactref element="TWE_R" pad="1"/>
@@ -2911,13 +2910,13 @@ design rules under a new name.</description>
 <contactref element="BUTTON" pad="2"/>
 <contactref element="JP3" pad="3"/>
 <contactref element="JP4" pad="3"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="46.99" width="0.1524" layer="16"/>
-<wire x1="10.16" y1="46.99" x2="10.16" y2="60.96" width="0.1524" layer="16"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="45.72" width="0.1524" layer="16"/>
+<wire x1="10.16" y1="45.72" x2="10.16" y2="60.96" width="0.1524" layer="16"/>
 <wire x1="10.16" y1="60.96" x2="15.24" y2="60.96" width="0.1524" layer="16"/>
 <wire x1="76.2" y1="20.32" x2="76.2" y2="27.94" width="0.1524" layer="16"/>
 <wire x1="76.2" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="16"/>
 <wire x1="73.66" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="16"/>
-<wire x1="73.66" y1="46.99" x2="73.66" y2="27.94" width="0.1524" layer="16"/>
+<wire x1="73.66" y1="45.72" x2="73.66" y2="27.94" width="0.1524" layer="16"/>
 <wire x1="63.5" y1="2.54" x2="68.58" y2="2.54" width="0.1524" layer="16"/>
 <wire x1="68.58" y1="2.54" x2="68.58" y2="7.62" width="0.1524" layer="16"/>
 <wire x1="68.58" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="16"/>
@@ -2963,7 +2962,7 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="16"/>
 <wire x1="71.12" y1="43.18" x2="71.12" y2="50.8" width="0.1524" layer="16"/>
 <wire x1="71.12" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="16"/>
-<wire x1="76.2" y1="50.8" x2="76.2" y2="46.99" width="0.1524" layer="16"/>
+<wire x1="76.2" y1="50.8" x2="76.2" y2="45.72" width="0.1524" layer="16"/>
 </signal>
 <signal name="HORZ2">
 <contactref element="JP2" pad="3"/>
@@ -2971,12 +2970,12 @@ design rules under a new name.</description>
 <wire x1="53.34" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="16"/>
 <wire x1="68.58" y1="45.72" x2="68.58" y2="53.34" width="0.1524" layer="16"/>
 <wire x1="68.58" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="16"/>
-<wire x1="78.74" y1="53.34" x2="78.74" y2="46.99" width="0.1524" layer="16"/>
+<wire x1="78.74" y1="53.34" x2="78.74" y2="45.72" width="0.1524" layer="16"/>
 </signal>
 <signal name="SEL2">
 <contactref element="JP2" pad="4"/>
 <contactref element="F303K8_L" pad="6"/>
-<wire x1="81.28" y1="46.99" x2="81.28" y2="66.04" width="0.1524" layer="16"/>
+<wire x1="81.28" y1="45.72" x2="81.28" y2="66.04" width="0.1524" layer="16"/>
 <wire x1="81.28" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="16"/>
 <via x="58.42" y="66.04" extent="1-16" drill="0.35"/>
 <wire x1="58.42" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="1"/>
@@ -2988,7 +2987,7 @@ design rules under a new name.</description>
 <signal name="VERT1">
 <contactref element="JP1" pad="2"/>
 <contactref element="F303K8_R" pad="10"/>
-<wire x1="12.7" y1="46.99" x2="12.7" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="12.7" y1="45.72" x2="12.7" y2="20.32" width="0.1524" layer="16"/>
 <wire x1="12.7" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="16"/>
 <wire x1="45.72" y1="20.32" x2="45.72" y2="38.1" width="0.1524" layer="16"/>
 <wire x1="45.72" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="16"/>
@@ -2996,7 +2995,7 @@ design rules under a new name.</description>
 <signal name="HORZ1">
 <contactref element="JP1" pad="3"/>
 <contactref element="F303K8_R" pad="9"/>
-<wire x1="15.24" y1="46.99" x2="15.24" y2="22.86" width="0.1524" layer="16"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="22.86" width="0.1524" layer="16"/>
 <wire x1="15.24" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="16"/>
 <wire x1="43.18" y1="22.86" x2="43.18" y2="40.64" width="0.1524" layer="16"/>
 <wire x1="43.18" y1="40.64" x2="53.34" y2="40.64" width="0.1524" layer="16"/>
@@ -3004,9 +3003,9 @@ design rules under a new name.</description>
 <signal name="SEL1">
 <contactref element="JP1" pad="4"/>
 <contactref element="F303K8_L" pad="5"/>
-<wire x1="17.78" y1="46.99" x2="17.78" y2="43.18" width="0.1524" layer="16"/>
-<wire x1="17.78" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="16"/>
-<wire x1="33.02" y1="43.18" x2="33.02" y2="50.8" width="0.1524" layer="16"/>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="40.64" width="0.1524" layer="16"/>
+<wire x1="17.78" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="16"/>
+<wire x1="33.02" y1="40.64" x2="33.02" y2="50.8" width="0.1524" layer="16"/>
 <wire x1="33.02" y1="50.8" x2="38.1" y2="50.8" width="0.1524" layer="16"/>
 </signal>
 <signal name="SW_UP">
@@ -3020,8 +3019,8 @@ design rules under a new name.</description>
 <contactref element="SW1" pad="D"/>
 <contactref element="R2" pad="2"/>
 <contactref element="F303K8_L" pad="11"/>
-<wire x1="38.1" y1="35.56" x2="6.35" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="58.42" x2="38.1" y2="35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="16"/>
+<wire x1="20.32" y1="35.56" x2="15.24" y2="58.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BT_IN">
 <contactref element="BUTTON" pad="1"/>
