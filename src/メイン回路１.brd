@@ -1782,10 +1782,10 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="12" x="-31.75" y="-2.54" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-3.175" y="46.99" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="15.24" y="29.21" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.4112" y="11.3538" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="POPULARITY" value="12" x="53.34" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="18.415" y="11.43" size="1.27" layer="27" rot="R90"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X14" package3d_urn="urn:adsk.eagle:package:22417/2" value="" x="15.24" y="29.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.0688" y="47.0662" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="12" x="-22.86" y="-2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.065" y="46.99" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X19" package3d_urn="urn:adsk.eagle:package:22500/2" value="" x="41.91" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.085" y="72.39" size="1.27" layer="25" ratio="10" rot="R270"/>
