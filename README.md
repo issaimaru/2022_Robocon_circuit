@@ -6,7 +6,7 @@
 
 - 上部機構
   - 回路図
-    ![上部機構](https://user-images.githubusercontent.com/80198387/185558230-9f880a19-a885-4b65-ac5b-c09d4fd83740.png)
+    ![上部機構](https://user-images.githubusercontent.com/80198387/185569705-36741227-0238-4329-8269-7aa137394152.png)
   
   - ピン配置
   
@@ -31,7 +31,7 @@
     
 - 足回り
   - 回路図
-    ![足回り](https://user-images.githubusercontent.com/80198387/185564382-1052c42b-d063-4114-a481-c07fefeefb69.png)
+    ![足回り](https://user-images.githubusercontent.com/80198387/185569554-7d095d9b-2277-4369-bf48-2375935484d7.png)
 
   - ピン配置
 
