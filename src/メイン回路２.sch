@@ -7598,7 +7598,7 @@ Source: www.kingbright.com</description>
 <plain>
 <text x="217.17" y="20.066" size="2.54" layer="94">Designed by Issaimaru</text>
 <text x="249.428" y="5.08" size="2.54" layer="94">完</text>
-<text x="12.7" y="86.36" size="1.778" layer="97">受信確認用1(TWE)</text>
+<text x="12.7" y="86.36" size="1.778" layer="97">受信確認用1(MDC)</text>
 <text x="12.7" y="73.66" size="1.778" layer="97">受信確認用2(MCU)</text>
 <text x="12.7" y="63.5" size="1.778" layer="97">速度確認用(PWM)</text>
 <text x="12.7" y="53.34" size="1.778" layer="97">上昇確認用</text>
@@ -7840,6 +7840,16 @@ Source: www.kingbright.com</description>
 <wire x1="111.76" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <junction x="111.76" y="86.36"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="PUB" gate="G$1" pin="4"/>
+<wire x1="207.01" y1="68.58" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="187.96" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PUB" gate="G$1" pin="3"/>
+<wire x1="222.25" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<label x="226.06" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM2" class="0">
