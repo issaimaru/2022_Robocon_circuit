@@ -7893,9 +7893,9 @@ Source: www.kingbright.com</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="31"/>
-<wire x1="144.78" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
-<label x="132.08" y="71.12" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="25"/>
+<wire x1="144.78" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="132.08" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM3" class="0">
@@ -7909,9 +7909,9 @@ Source: www.kingbright.com</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="33"/>
-<wire x1="144.78" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
-<label x="132.08" y="68.58" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="23"/>
+<wire x1="144.78" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
+<label x="132.08" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR1" class="0">
@@ -7921,9 +7921,9 @@ Source: www.kingbright.com</description>
 <label x="228.6" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="27"/>
-<wire x1="144.78" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
-<label x="132.08" y="76.2" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="29"/>
+<wire x1="144.78" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<label x="132.08" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR2" class="0">
@@ -7933,9 +7933,9 @@ Source: www.kingbright.com</description>
 <label x="228.6" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="25"/>
-<wire x1="144.78" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<label x="132.08" y="78.74" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="31"/>
+<wire x1="144.78" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="132.08" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR3" class="0">
@@ -7945,9 +7945,9 @@ Source: www.kingbright.com</description>
 <label x="228.6" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="23"/>
-<wire x1="144.78" y1="81.28" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
-<label x="132.08" y="81.28" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="33"/>
+<wire x1="144.78" y1="68.58" x2="132.08" y2="68.58" width="0.1524" layer="91"/>
+<label x="132.08" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM1" class="0">
@@ -7961,9 +7961,9 @@ Source: www.kingbright.com</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="F411RE_R" gate="G$1" pin="29"/>
-<wire x1="144.78" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="132.08" y="73.66" size="1.778" layer="95"/>
+<pinref part="F411RE_R" gate="G$1" pin="27"/>
+<wire x1="144.78" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<label x="132.08" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U5V" class="0">
