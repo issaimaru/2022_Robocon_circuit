@@ -53,3 +53,12 @@
     | PA_1/A1 | LED2 | 上部機構側mbedとの通信確認用LED |
     | PA_4/A2 | LED3 | TWELITEとの通信確認用LED |
     
+- 暴走対策機能付き非常停止スイッチ
+  - 回路図
+    ![暴走対策機能付き非常停止スイッチ](https://user-images.githubusercontent.com/80198387/185867234-20572f1c-a73c-462b-b659-5e56f8bc6799.png)
+
+  - 接続方法<br>
+    - INPUT1，INPUT2はPowerUnit BseriesのMILコネクタ部のうちのVCCとGNDに無理やりはんだ付けして配線を伸ばして2ピンのJST-XHで接続してください．
+    - SW_INは非常停止スイッチと接続してください．
+    - CTRLはPowerUnit BseriesのCTRLと接続してください．
+    - SWITCHはPowerUnit BseriesのSWITCHと接続してください．
