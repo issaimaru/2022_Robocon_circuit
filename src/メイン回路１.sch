@@ -8179,7 +8179,7 @@ grid 5.08 mm</description>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="DEBUG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
@@ -8192,6 +8192,7 @@ grid 5.08 mm</description>
 <part name="T2" library="一般的なトランジスタ" deviceset="一般的なトランジスタ" device=""/>
 <part name="T3" library="一般的なトランジスタ" deviceset="一般的なトランジスタ" device=""/>
 <part name="T4" library="一般的なトランジスタ" deviceset="一般的なトランジスタ" device=""/>
+<part name="ソケット置き" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8212,10 +8213,10 @@ grid 5.08 mm</description>
 <wire x1="17.78" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="96.52" x2="73.66" y2="119.38" width="0.1524" layer="97"/>
 <wire x1="73.66" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="97"/>
-<wire x1="25.4" y1="152.4" x2="25.4" y2="132.08" width="0.1524" layer="97"/>
-<wire x1="25.4" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="97"/>
-<wire x1="60.96" y1="132.08" x2="60.96" y2="152.4" width="0.1524" layer="97"/>
-<wire x1="60.96" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="97"/>
+<wire x1="25.4" y1="147.32" x2="25.4" y2="127" width="0.1524" layer="97"/>
+<wire x1="25.4" y1="127" x2="60.96" y2="127" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="127" x2="60.96" y2="147.32" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="97"/>
 <wire x1="83.82" y1="129.54" x2="83.82" y2="55.88" width="0.1524" layer="97"/>
 <wire x1="83.82" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="97"/>
 <wire x1="172.72" y1="55.88" x2="172.72" y2="129.54" width="0.1524" layer="97"/>
@@ -8232,13 +8233,19 @@ grid 5.08 mm</description>
 <wire x1="182.88" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="97"/>
 <wire x1="246.38" y1="27.94" x2="246.38" y2="71.12" width="0.1524" layer="97"/>
 <wire x1="246.38" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="97"/>
-<text x="38.1" y="129.54" size="1.778" layer="97">MCU_COM</text>
+<text x="38.1" y="124.46" size="1.778" layer="97">MCU_COM</text>
 <text x="38.1" y="93.98" size="1.778" layer="97">CONVERTER</text>
 <text x="40.64" y="25.4" size="1.778" layer="97">TWELITE</text>
 <text x="124.46" y="53.34" size="1.778" layer="97">MCU</text>
 <text x="205.74" y="129.54" size="1.778" layer="97">MDC_COM</text>
 <text x="210.82" y="73.66" size="1.778" layer="97">MOTOR</text>
 <text x="210.82" y="25.4" size="1.778" layer="97">LED</text>
+<wire x1="25.4" y1="170.18" x2="25.4" y2="155.702" width="0.1524" layer="97"/>
+<wire x1="25.4" y1="155.702" x2="60.96" y2="155.702" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="155.702" x2="60.96" y2="170.18" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="170.434" x2="60.96" y2="170.18" width="0.1524" layer="97"/>
+<wire x1="60.96" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="97"/>
+<text x="38.1" y="152.4" size="1.778" layer="97">SOCKET</text>
 </plain>
 <instances>
 <instance part="TWE_L" gate="A" x="45.72" y="55.88" smashed="yes">
@@ -8261,9 +8268,9 @@ grid 5.08 mm</description>
 <attribute name="VALUE" x="223.52" y="106.68" size="1.778" layer="96"/>
 <attribute name="NAME" x="224.536" y="124.968" size="1.778" layer="95"/>
 </instance>
-<instance part="MCU_UART" gate="G$1" x="38.1" y="143.51" smashed="yes">
-<attribute name="VALUE" x="36.83" y="135.89" size="1.778" layer="96"/>
-<attribute name="NAME" x="31.75" y="146.812" size="1.778" layer="95"/>
+<instance part="MCU_UART" gate="G$1" x="38.1" y="138.43" smashed="yes">
+<attribute name="VALUE" x="36.83" y="130.81" size="1.778" layer="96"/>
+<attribute name="NAME" x="31.75" y="141.732" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
@@ -8356,7 +8363,7 @@ grid 5.08 mm</description>
 <instance part="SUPPLY10" gate="GND" x="218.44" y="33.02" smashed="yes">
 <attribute name="VALUE" x="216.535" y="29.845" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="241.3" y="81.28" smashed="yes">
+<instance part="DEBUG" gate="G$1" x="241.3" y="81.28" smashed="yes">
 <attribute name="NAME" x="234.95" y="86.995" size="1.778" layer="95"/>
 <attribute name="VALUE" x="234.95" y="76.2" size="1.778" layer="96"/>
 </instance>
@@ -8397,6 +8404,10 @@ grid 5.08 mm</description>
 </instance>
 <instance part="T4" gate="G$1" x="201.168" y="107.188" smashed="yes" rot="R90">
 <attribute name="NAME" x="197.866" y="99.568" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="ソケット置き" gate="G$1" x="40.64" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="49.53" y="159.385" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="46.99" y="170.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8518,8 +8529,8 @@ grid 5.08 mm</description>
 <net name="RX_MCU" class="0">
 <segment>
 <pinref part="MCU_UART" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="143.51" x2="55.118" y2="143.51" width="0.1524" layer="91"/>
-<label x="46.736" y="143.51" size="1.778" layer="95"/>
+<wire x1="45.72" y1="138.43" x2="55.118" y2="138.43" width="0.1524" layer="91"/>
+<label x="46.736" y="138.43" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="F411RE_R" gate="G$1" pin="12"/>
@@ -8530,8 +8541,8 @@ grid 5.08 mm</description>
 <net name="TX_MCU" class="0">
 <segment>
 <pinref part="MCU_UART" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="140.97" x2="55.118" y2="140.97" width="0.1524" layer="91"/>
-<label x="46.736" y="140.97" size="1.778" layer="95"/>
+<wire x1="45.72" y1="135.89" x2="55.118" y2="135.89" width="0.1524" layer="91"/>
+<label x="46.736" y="135.89" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="F411RE_R" gate="G$1" pin="14"/>
@@ -8726,7 +8737,7 @@ grid 5.08 mm</description>
 <label x="200.66" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="DEBUG" gate="G$1" pin="1"/>
 <wire x1="238.76" y1="83.82" x2="228.6" y2="83.82" width="0.1524" layer="91"/>
 <label x="226.06" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -8792,7 +8803,7 @@ grid 5.08 mm</description>
 </net>
 <net name="DEBUG" class="0">
 <segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="DEBUG" gate="G$1" pin="2"/>
 <wire x1="238.76" y1="81.28" x2="228.6" y2="81.28" width="0.1524" layer="91"/>
 <label x="226.06" y="81.28" size="1.778" layer="95"/>
 </segment>
