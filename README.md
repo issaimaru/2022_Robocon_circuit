@@ -7,6 +7,9 @@
 - 上部機構
   - 回路図
     ![上部機構](https://user-images.githubusercontent.com/80198387/185569705-36741227-0238-4329-8269-7aa137394152.png)
+    
+    > **Warning**<br>
+    > 回路図が一部変わっています．詳しくはIssaimaruまで...
   
   - ピン配置
   
@@ -33,6 +36,9 @@
   - 回路図
     ![足回り](https://user-images.githubusercontent.com/80198387/185569554-7d095d9b-2277-4369-bf48-2375935484d7.png)
 
+    > **Warning**<br>
+    > 回路図が一部変わっています．詳しくはIssaimaruまで...
+    
   - ピン配置
 
     | ピン番号 | 機能 | 備考 |
@@ -55,7 +61,7 @@
     
 - 暴走対策機能付き非常停止スイッチ
   - 回路図
-    ![暴走対策機能付き非常停止スイッチ](https://user-images.githubusercontent.com/80198387/185867234-20572f1c-a73c-462b-b659-5e56f8bc6799.png)
+    ![暴走対策機能付き非常停止スイッチ](https://user-images.githubusercontent.com/80198387/187575599-e7619aea-3dc1-4c90-a574-2f65bee7aef9.png)
 
   - 接続方法<br>
     - INPUT1，INPUT2はPowerUnit BseriesのMILコネクタ部のうちのVCCとGNDに無理やりはんだ付けして配線を伸ばして2ピンのJST-XHで接続してください．
