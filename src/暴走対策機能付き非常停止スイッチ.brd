@@ -1970,7 +1970,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="3.81" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.5356" y="20.8026" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100k" x="16.51" y="10.16" smashed="yes">
+<element name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k" x="16.51" y="10.16" smashed="yes">
 <attribute name="NAME" x="13.97" y="11.4554" size="0.9906" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="79" x="34.29" y="-29.21" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="34.29" y="-29.21" size="1.778" layer="27" display="off"/>
@@ -2065,13 +2065,15 @@ design rules under a new name.</description>
 <wire x1="35.56" y1="5.08" x2="20.32" y2="5.08" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$8">
-<contactref element="OK1" pad="3"/>
 <contactref element="IRLB-1" pad="G"/>
 <contactref element="R5" pad="1"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="5.08" width="0.1524" layer="16"/>
 <wire x1="12.7" y1="10.16" x2="12.7" y2="15.24" width="0.1524" layer="16"/>
 <wire x1="12.7" y1="15.24" x2="68.58" y2="15.24" width="0.1524" layer="16"/>
-<wire x1="68.58" y1="15.24" x2="68.58" y2="20.32" width="0.1524" layer="16"/>
+<contactref element="OK1" pad="4"/>
+<wire x1="68.58" y1="15.24" x2="71.12" y2="17.78" width="0.1524" layer="16"/>
+<wire x1="71.12" y1="17.78" x2="71.12" y2="22.86" width="0.1524" layer="16"/>
+<wire x1="71.12" y1="22.86" x2="68.58" y2="22.86" width="0.1524" layer="16"/>
 </signal>
 <signal name="INPUT">
 <contactref element="SWITCH" pad="1"/>
@@ -2082,8 +2084,11 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND2">
 <contactref element="CTRL" pad="1"/>
-<contactref element="OK1" pad="4"/>
-<wire x1="68.58" y1="22.86" x2="68.58" y2="35.56" width="0.1524" layer="16"/>
+<contactref element="OK1" pad="3"/>
+<wire x1="68.58" y1="20.32" x2="66.04" y2="20.32" width="0.1524" layer="16"/>
+<wire x1="66.04" y1="20.32" x2="66.04" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="66.04" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="68.58" y1="30.48" x2="68.58" y2="35.56" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
