@@ -5084,7 +5084,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
 <part name="IRLB-1" library="OKUDA_libraries" deviceset="IRLB3813" device="STAND"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100k"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
 <part name="CTRL" library="con-jst-xh" deviceset="02-JST" device=""/>
 </parts>
 <sheets>
@@ -5144,12 +5144,12 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <attribute name="NAME" x="52.07" y="69.6214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="49.403" y="71.628" size="1.016" layer="96" rot="R180"/>
 </instance>
-<instance part="IRLB-1" gate="G$1" x="111.76" y="58.42" smashed="yes">
-<attribute name="NAME" x="113.665" y="56.515" size="0.8128" layer="95" rot="R90"/>
+<instance part="IRLB-1" gate="G$1" x="111.76" y="63.5" smashed="yes">
+<attribute name="NAME" x="113.665" y="61.595" size="0.8128" layer="95" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="104.14" y="50.8" smashed="yes">
-<attribute name="NAME" x="100.33" y="52.2986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="102.997" y="50.292" size="1.016" layer="96"/>
+<instance part="R5" gate="G$1" x="104.14" y="58.42" smashed="yes">
+<attribute name="NAME" x="100.33" y="59.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="102.997" y="57.912" size="1.016" layer="96"/>
 </instance>
 <instance part="CTRL" gate="G$1" x="144.78" y="78.74" smashed="yes">
 <attribute name="VALUE" x="143.51" y="71.12" size="1.778" layer="96"/>
@@ -5242,25 +5242,25 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </segment>
 <segment>
 <pinref part="IRLB-1" gate="G$1" pin="S"/>
-<wire x1="111.76" y1="55.88" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="50.8" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="60.96" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="58.42" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="45.72" x2="123.19" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="123.19" y1="45.72" x2="123.19" y2="52.07" width="0.1524" layer="91"/>
 <label x="120.65" y="52.07" size="1.778" layer="95"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<junction x="111.76" y="50.8"/>
+<wire x1="109.22" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<junction x="111.76" y="58.42"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="OK1" gate="A" pin="EMIT"/>
 <pinref part="IRLB-1" gate="G$1" pin="G"/>
-<wire x1="87.63" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="50.8" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
-<junction x="99.06" y="55.88"/>
+<wire x1="99.06" y1="60.96" x2="106.68" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="58.42" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<junction x="99.06" y="60.96"/>
+<pinref part="OK1" gate="A" pin="COL"/>
+<wire x1="99.06" y1="60.96" x2="87.63" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INPUT" class="0">
@@ -5272,7 +5272,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <segment>
 <label x="109.347" y="74.295" size="1.778" layer="95"/>
 <pinref part="IRLB-1" gate="G$1" pin="D"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="66.04" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND2" class="0">
@@ -5282,9 +5282,9 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <label x="154.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="A" pin="COL"/>
-<wire x1="87.63" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
-<label x="90.17" y="60.96" size="1.778" layer="95"/>
+<pinref part="OK1" gate="A" pin="EMIT"/>
+<wire x1="87.63" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<label x="88.9" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
