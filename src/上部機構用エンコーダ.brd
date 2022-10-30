@@ -348,6 +348,42 @@
 <wire x1="1.58" y1="-1.65" x2="3.72" y2="-1.65" width="0.127" layer="21"/>
 <wire x1="1.58" y1="-1.65" x2="1.58" y2="-2.35" width="0.127" layer="21"/>
 </package>
+<package name="B4B-XH">
+<description>&lt;b&gt;JST XH Connector&lt;/b&gt;
+
+&lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
+
+&lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="4" x="-3.81" y="0" drill="1"/>
+<pad name="3" x="-1.27" y="0" drill="1"/>
+<pad name="2" x="1.27" y="0" drill="1"/>
+<pad name="1" x="3.81" y="0" drill="1" shape="square"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.26" y1="3.4" x2="6.26" y2="3.4" width="0.127" layer="21"/>
+<wire x1="6.26" y1="3.4" x2="6.26" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="2.62" y1="-2.35" x2="-2.62" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-4.12" y1="-2.35" x2="-6.26" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-6.26" y1="-2.35" x2="-6.26" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-6.26" y1="-0.65" x2="-6.26" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-5.56" y1="2.7" x2="5.56" y2="2.7" width="0.127" layer="21"/>
+<wire x1="5.56" y1="2.7" x2="5.56" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.56" y1="1.27" x2="5.56" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="2.62" y1="-1.65" x2="-2.62" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-4.12" y1="-1.65" x2="-6.26" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-5.56" y1="-0.65" x2="-5.56" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-5.56" y1="1.27" x2="-5.56" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-5.56" y1="1.27" x2="5.56" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-6.26" y1="-0.65" x2="-5.56" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="5.56" y1="-0.65" x2="6.26" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-4.12" y1="-1.65" x2="-4.12" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-2.62" y1="-1.65" x2="-2.62" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="2.62" y1="-1.65" x2="2.62" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="4.12" y1="-2.35" x2="6.26" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="6.26" y1="-2.35" x2="6.26" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="4.12" y1="-1.65" x2="6.26" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="4.12" y1="-1.65" x2="4.12" y2="-2.35" width="0.127" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="prototyping-board">
@@ -2248,6 +2284,10 @@ design rules under a new name.</description>
 </element>
 <element name="D1" library="DIODE_STAND" package="DIODE_STAND" value="DIODE_STAND" x="30.48" y="27.94" smashed="yes"/>
 <element name="D2" library="DIODE_STAND" package="DIODE_STAND" value="DIODE_STAND" x="43.18" y="27.94" smashed="yes" rot="R270"/>
+<element name="JP3" library="con-jst-xh" package="B4B-XH" value="" x="43.18" y="54.61" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.99" y="58.42" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="39.37" y="58.42" size="1.27" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2285,8 +2325,9 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="20.32" x2="38.1" y2="22.86" width="0.1524" layer="16"/>
 <wire x1="35.56" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="16"/>
-<wire x1="40.64" y1="63.5" x2="40.64" y2="30.48" width="0.1524" layer="16"/>
+<wire x1="40.64" y1="63.5" x2="40.64" y2="50.8" width="0.1524" layer="16"/>
 <via x="40.64" y="30.48" extent="1-16" drill="0.35"/>
+<wire x1="40.64" y1="50.8" x2="40.64" y2="30.48" width="0.1524" layer="16"/>
 <wire x1="40.64" y1="30.48" x2="40.64" y2="25.4" width="0.1524" layer="1"/>
 <via x="40.64" y="25.4" extent="1-16" drill="0.35"/>
 <wire x1="10.16" y1="20.32" x2="10.16" y2="17.78" width="0.1524" layer="16"/>
@@ -2296,6 +2337,8 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="10.16" x2="25.4" y2="12.7" width="0.1524" layer="16"/>
 <wire x1="38.1" y1="22.86" x2="40.64" y2="25.4" width="0.1524" layer="16"/>
 <wire x1="10.16" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="16"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="ENC1" pad="4"/>
@@ -2508,6 +2551,45 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="D2" pad="C"/>
 <wire x1="43.18" y1="25.4" x2="43.18" y2="27.94" width="0.1524" layer="16"/>
+</signal>
+<signal name="BLUE">
+<contactref element="JP2" pad="10"/>
+<wire x1="35.56" y1="43.18" x2="43.18" y2="43.18" width="0.1524" layer="1"/>
+<via x="43.18" y="43.18" extent="1-16" drill="0.35"/>
+<contactref element="JP3" pad="2"/>
+<wire x1="43.18" y1="53.34" x2="45.72" y2="50.8" width="0.1524" layer="16"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="45.72" width="0.1524" layer="16"/>
+<wire x1="45.72" y1="45.72" x2="43.18" y2="43.18" width="0.1524" layer="16"/>
+</signal>
+<signal name="GREEN">
+<contactref element="JP2" pad="9"/>
+<contactref element="JP3" pad="3"/>
+<wire x1="43.18" y1="55.88" x2="44.323" y2="57.023" width="0.1524" layer="16"/>
+<wire x1="44.323" y1="57.023" x2="44.323" y2="62.992" width="0.1524" layer="16"/>
+<wire x1="44.323" y1="62.992" x2="38.1" y2="69.215" width="0.1524" layer="16"/>
+<wire x1="38.1" y1="69.215" x2="28.067" y2="69.215" width="0.1524" layer="16"/>
+<wire x1="28.067" y1="69.215" x2="27.94" y2="69.088" width="0.1524" layer="16"/>
+<wire x1="27.94" y1="69.088" x2="27.94" y2="60.96" width="0.1524" layer="16"/>
+<via x="27.94" y="60.96" extent="1-16" drill="0.35"/>
+<wire x1="27.94" y1="60.96" x2="27.94" y2="55.88" width="0.1524" layer="1"/>
+<via x="27.94" y="55.88" extent="1-16" drill="0.35"/>
+<wire x1="27.94" y1="55.88" x2="27.94" y2="50.8" width="0.1524" layer="16"/>
+<wire x1="27.94" y1="50.8" x2="33.02" y2="45.72" width="0.1524" layer="16"/>
+<wire x1="33.02" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="16"/>
+</signal>
+<signal name="RED">
+<contactref element="JP2" pad="7"/>
+<contactref element="JP3" pad="4"/>
+<wire x1="43.18" y1="58.42" x2="43.18" y2="63.5" width="0.1524" layer="16"/>
+<wire x1="43.18" y1="63.5" x2="38.1" y2="68.58" width="0.1524" layer="16"/>
+<wire x1="38.1" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="68.58" x2="30.48" y2="60.96" width="0.1524" layer="16"/>
+<via x="30.48" y="60.96" extent="1-16" drill="0.35"/>
+<wire x1="30.48" y1="60.96" x2="30.48" y2="55.88" width="0.1524" layer="1"/>
+<via x="30.48" y="55.88" extent="1-16" drill="0.35"/>
+<wire x1="30.48" y1="55.88" x2="30.48" y2="53.34" width="0.1524" layer="16"/>
+<wire x1="30.48" y1="53.34" x2="33.02" y2="50.8" width="0.1524" layer="16"/>
+<wire x1="33.02" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -9005,6 +9005,43 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.58" y1="-1.65" x2="3.72" y2="-1.65" width="0.127" layer="21"/>
 <wire x1="1.58" y1="-1.65" x2="1.58" y2="-2.35" width="0.127" layer="21"/>
 </package>
+<package name="B5B-XH">
+<description>&lt;b&gt;JST XH Connector&lt;/b&gt;
+
+&lt;p&gt;JST 2.54mm connector. Folded beam contact, box-shaped shrouded header, header with a boss, interchangeability, conformance to the HA terminal&lt;/p&gt;
+
+&lt;p&gt;Datasheet: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/eXH.pdf"&gt; eXH.pdf&lt;/a&gt;&lt;/p&gt;</description>
+<pad name="5" x="-5.08" y="0" drill="1"/>
+<pad name="4" x="-2.54" y="0" drill="1"/>
+<pad name="3" x="0" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<pad name="1" x="5.08" y="0" drill="1" shape="square"/>
+<text x="-5.08" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-7.53" y1="3.4" x2="7.53" y2="3.4" width="0.127" layer="21"/>
+<wire x1="7.53" y1="3.4" x2="7.53" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="3.89" y1="-2.35" x2="-3.89" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-5.39" y1="-2.35" x2="-7.53" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-7.53" y1="-2.35" x2="-7.53" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-7.53" y1="-0.65" x2="-7.53" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="2.7" x2="6.83" y2="2.7" width="0.127" layer="21"/>
+<wire x1="6.83" y1="2.7" x2="6.83" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.83" y1="1.27" x2="6.83" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="3.89" y1="-1.65" x2="-3.89" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-5.39" y1="-1.65" x2="-7.53" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="-0.65" x2="-6.83" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="1.27" x2="-6.83" y2="2.7" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="1.27" x2="6.83" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-7.53" y1="-0.65" x2="-6.83" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="6.83" y1="-0.65" x2="7.53" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-5.39" y1="-1.65" x2="-5.39" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="-3.89" y1="-1.65" x2="-3.89" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="3.89" y1="-1.65" x2="3.89" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="5.39" y1="-2.35" x2="7.53" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="7.53" y1="-2.35" x2="7.53" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="5.39" y1="-1.65" x2="7.53" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="5.39" y1="-1.65" x2="5.39" y2="-2.35" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="02-JST">
@@ -9019,6 +9056,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
+<symbol name="05-JST">
+<wire x1="3.81" y1="-7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<text x="-1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-1.27" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="5" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<pin name="2" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.27" y1="-5.08" x2="2.54" y2="-5.08" width="0.6096" layer="94"/>
+<pin name="1" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="02-JST">
@@ -9031,6 +9086,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="05-JST" prefix="JP" uservalue="yes">
+<description>&lt;B&gt;JST CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="05-JST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B5B-XH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9234,6 +9309,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="PIN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
 <part name="PINSOCKET" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X7" device="" package3d_urn="urn:adsk.eagle:package:22477/2"/>
+<part name="JP3" library="con-jst-xh" deviceset="05-JST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9251,9 +9327,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="126.97" y1="172.43" x2="68.55" y2="172.43" width="0.1524" layer="97"/>
 <text x="102.332" y="110.2" size="2.54" layer="97" rot="MR0">MCU</text>
 <text x="165.1" y="20.32" size="1.778" layer="94">モジュール一覧</text>
-<wire x1="171.18" y1="172.45" x2="171.64" y2="64.43" width="0.1524" layer="97"/>
-<wire x1="171.64" y1="64.43" x2="254.2" y2="64.01" width="0.1524" layer="97"/>
-<wire x1="254.2" y1="64.01" x2="253.74" y2="172.03" width="0.1524" layer="97"/>
+<wire x1="171.18" y1="172.45" x2="171.64" y2="36.49" width="0.1524" layer="97"/>
+<wire x1="171.64" y1="36.49" x2="254.2" y2="36.07" width="0.1524" layer="97"/>
+<wire x1="254.2" y1="36.07" x2="253.74" y2="172.03" width="0.1524" layer="97"/>
 <wire x1="253.74" y1="172.03" x2="171.18" y2="172.45" width="0.1524" layer="97"/>
 <text x="165.1" y="15.24" size="1.778" layer="94">スティック 2</text>
 <text x="165.1" y="12.7" size="1.778" layer="94">ボタン 5</text>
@@ -9271,9 +9347,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="126.492" y1="36.084" x2="127" y2="99.06" width="0.1524" layer="97"/>
 <wire x1="127" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="97"/>
 <wire x1="173.06" y1="122.688" x2="251.8" y2="122.688" width="0.1524" layer="97"/>
-<wire x1="251.8" y1="122.688" x2="251.46" y2="66.04" width="0.1524" layer="97"/>
-<wire x1="251.46" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="97"/>
-<wire x1="172.72" y1="66.04" x2="173.06" y2="122.688" width="0.1524" layer="97"/>
+<wire x1="251.8" y1="122.688" x2="251.46" y2="38.1" width="0.1524" layer="97"/>
+<wire x1="251.46" y1="38.1" x2="172.72" y2="38.1" width="0.1524" layer="97"/>
+<wire x1="172.72" y1="38.1" x2="173.06" y2="122.688" width="0.1524" layer="97"/>
 <text x="181.864" y="168.402" size="1.778" layer="97">Analogstick</text>
 <text x="225.882" y="167.952" size="1.778" layer="97">Button</text>
 <wire x1="7.62" y1="99.06" x2="7.112" y2="36.084" width="0.1524" layer="97"/>
@@ -9464,6 +9540,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="PINSOCKET" gate="A" x="31.496" y="74.168" smashed="yes">
 <attribute name="NAME" x="25.146" y="84.963" size="1.778" layer="95"/>
 <attribute name="VALUE" x="25.146" y="61.468" size="1.778" layer="96"/>
+</instance>
+<instance part="JP3" gate="G$1" x="177.8" y="53.34" smashed="yes">
+<attribute name="VALUE" x="176.53" y="43.18" size="1.778" layer="96"/>
+<attribute name="NAME" x="176.53" y="61.722" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
