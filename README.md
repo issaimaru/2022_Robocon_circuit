@@ -68,3 +68,41 @@
     - SW_INは非常停止スイッチと接続してください．
     - CTRLはPowerUnit BseriesのCTRLと接続してください．
     - SWITCHはPowerUnit BseriesのSWITCHと接続してください．
+    
+ - 上部機構用エンコーダー
+  - 回路図
+    ![上部機構用エンコーダー](https://user-images.githubusercontent.com/80198387/193417058-c3f58b3c-a31a-4396-a744-c2936ded76ef.png)
+
+  - ピン配置
+    | ピン番号 | 機能 | 備考 |
+    | :---: | :---: | :--: |
+    | PB_7/D4 | I2C_SDA | メインマイコンとの通信用 |
+    | PB_6/D5 | I2C_SCL | 同様 |
+    | PF_0/D7 | ENC1_A | ロリコン1のA相 |
+    | PF_1/D8 | ENC1_B | ロリコン1のB相 |
+    | PA_8/D9 | ENC1_X | ロリコン1のX相 |
+    | PA_11/D10 | ENC2_A | ロリコン2のA相 |
+    | PB_5/D11 | ENC2_B | ロリコン2のB相 |
+    | PB_4/D12 | ENC2_X | ロリコン2のX相 |
+    | PB_1/D6 | PHOTO_OUT | フォトインタラプタの入力(HI->物体有/LOW->物体無) |
+    | PA_6/A5 | RED | テープLEDの赤色点灯用ピン |
+    | PA_4/A3 | GREEN | テープLEDの緑色点灯用ピン |
+    | PA_3/A2 | BLUE | テープLEDの青色点灯用ピン |
+    
+  - 足回り用ロリコン
+    - 回路図<br>
+      ![足回り用ロリコン](https://user-images.githubusercontent.com/80198387/194679919-a4d8bbbc-785c-45b8-91b9-a1de73a46089.png)<br>
+
+    - ピン配置<br>
+      | ピン番号 | 機能 | 備考 |
+      | :---: | :---: | :--: |
+      | PB_7/D4 | I2C_SDA | メインマイコンとの通信用 |
+      | PB_6/D5 | I2C_SCL | 同様 |
+      | PA_12/D2 | ENC1_A | ロリコン1のA相 |
+      | PB_0/D3 | ENC1_B | ロリコン1のB相 |
+      | PF_0/D7 | ENC2_A | ロリコン2のA相 |
+      | PB_1/D6 | ENC2_B | ロリコン2のB相 |
+      | PF_1/D8 | ENC3_A | ロリコン3のA相 |
+      | PA_8/D9 | ENC3_B | ロリコン3のB相 |
+      | PB_5/D11 | ENC4_A | ロリコン4のA相 |
+      | PA_11/D10 | ENC4_B | ロリコン4のB相 |
