@@ -11496,7 +11496,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:8676/1"/>
 <part name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" deviceset="ML10" device="" package3d_urn="urn:adsk.eagle:package:8676/1"/>
 <part name="POW" library="con-jst-xh" deviceset="02-JST" device=""/>
-<part name="UART" library="con-jst-xh" deviceset="02-JST" device=""/>
+<part name="SUSPENSION" library="con-jst-xh" deviceset="02-JST" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
 <part name="JP9" library="con-jst-xh" deviceset="04-JST" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
@@ -11513,6 +11513,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100"/>
+<part name="MAT_LED" library="con-jst-xh" deviceset="02-JST" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11537,10 +11538,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="81.28" y1="43.18" x2="81.28" y2="71.12" width="0.1524" layer="97"/>
 <wire x1="81.28" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="97"/>
 <text x="55.88" y="40.64" size="1.778" layer="97">POW</text>
-<wire x1="30.48" y1="213.36" x2="30.48" y2="185.42" width="0.1524" layer="97"/>
+<wire x1="30.48" y1="226.06" x2="30.48" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="30.48" y1="185.42" x2="66.04" y2="185.42" width="0.1524" layer="97"/>
-<wire x1="66.04" y1="185.42" x2="66.04" y2="213.36" width="0.1524" layer="97"/>
-<wire x1="66.04" y1="213.36" x2="30.48" y2="213.36" width="0.1524" layer="97"/>
+<wire x1="66.04" y1="185.42" x2="66.04" y2="226.06" width="0.1524" layer="97"/>
+<wire x1="66.04" y1="226.06" x2="30.48" y2="226.06" width="0.1524" layer="97"/>
 <text x="45.72" y="182.88" size="1.778" layer="97">UART</text>
 <wire x1="284.48" y1="137.16" x2="284.48" y2="111.76" width="0.1524" layer="97"/>
 <wire x1="284.48" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="97"/>
@@ -11612,9 +11613,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="49.53" y="50.8" size="1.778" layer="96"/>
 <attribute name="NAME" x="49.53" y="61.722" size="1.778" layer="95"/>
 </instance>
-<instance part="UART" gate="G$1" x="43.18" y="200.66" smashed="yes">
-<attribute name="VALUE" x="41.91" y="193.04" size="1.778" layer="96"/>
-<attribute name="NAME" x="41.91" y="203.962" size="1.778" layer="95"/>
+<instance part="SUSPENSION" gate="G$1" x="43.18" y="213.36" smashed="yes">
+<attribute name="VALUE" x="41.91" y="205.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="41.91" y="216.662" size="1.778" layer="95"/>
 </instance>
 <instance part="C1" gate="G$1" x="63.5" y="58.42" smashed="yes">
 <attribute name="NAME" x="65.024" y="58.801" size="1.778" layer="95"/>
@@ -11678,6 +11679,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R7" gate="G$1" x="309.88" y="96.52" smashed="yes">
 <attribute name="NAME" x="306.07" y="98.0186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="307.848" y="95.758" size="1.778" layer="96"/>
+</instance>
+<instance part="MAT_LED" gate="G$1" x="43.18" y="198.12" smashed="yes">
+<attribute name="VALUE" x="41.91" y="190.5" size="1.778" layer="96"/>
+<attribute name="NAME" x="41.91" y="201.422" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -12141,30 +12146,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="190.5" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TX" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="3"/>
-<wire x1="154.94" y1="193.04" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
-<label x="139.7" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="UART" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="200.66" x2="58.42" y2="200.66" width="0.1524" layer="91"/>
-<label x="55.88" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RX" class="0">
-<segment>
-<pinref part="JP5" gate="A" pin="4"/>
-<wire x1="162.56" y1="193.04" x2="172.72" y2="193.04" width="0.1524" layer="91"/>
-<label x="170.18" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="UART" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
-<label x="55.88" y="198.12" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BLUE" class="0">
 <segment>
 <pinref part="JP9" gate="G$1" pin="2"/>
@@ -12304,6 +12285,54 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="JP8" gate="A" pin="10"/>
 <wire x1="210.82" y1="106.68" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
 <label x="218.44" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX1" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="3"/>
+<wire x1="154.94" y1="193.04" x2="139.7" y2="193.04" width="0.1524" layer="91"/>
+<label x="139.7" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUSPENSION" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="213.36" x2="58.42" y2="213.36" width="0.1524" layer="91"/>
+<label x="55.88" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX1" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="162.56" y1="193.04" x2="172.72" y2="193.04" width="0.1524" layer="91"/>
+<label x="170.18" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUSPENSION" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
+<label x="55.88" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX2" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="9"/>
+<wire x1="154.94" y1="185.42" x2="139.7" y2="185.42" width="0.1524" layer="91"/>
+<label x="139.7" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAT_LED" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="195.58" x2="58.42" y2="195.58" width="0.1524" layer="91"/>
+<label x="55.88" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX2" class="0">
+<segment>
+<pinref part="JP5" gate="A" pin="11"/>
+<wire x1="154.94" y1="182.88" x2="139.7" y2="182.88" width="0.1524" layer="91"/>
+<label x="139.7" y="182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MAT_LED" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="198.12" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
+<label x="55.88" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
