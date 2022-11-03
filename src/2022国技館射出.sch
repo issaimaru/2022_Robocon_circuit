@@ -11798,6 +11798,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="330.2" y1="91.44" x2="330.2" y2="83.82" width="0.1524" layer="91"/>
 <junction x="330.2" y="83.82"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="A" pin="54"/>
+<wire x1="210.82" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
+<label x="218.44" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM6" class="0">
 <segment>
@@ -11873,74 +11878,74 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="DIR1" class="0">
 <segment>
-<pinref part="JP6" gate="A" pin="25"/>
-<wire x1="203.2" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<label x="190.5" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="9"/>
 <wire x1="320.04" y1="195.58" x2="327.66" y2="195.58" width="0.1524" layer="91"/>
 <label x="322.58" y="195.58" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="DIR2" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="23"/>
-<wire x1="203.2" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
-<label x="190.5" y="167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="7"/>
-<wire x1="320.04" y1="193.04" x2="327.66" y2="193.04" width="0.1524" layer="91"/>
-<label x="322.58" y="193.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR3" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="21"/>
-<wire x1="203.2" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
-<label x="190.5" y="170.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="5"/>
-<wire x1="320.04" y1="190.5" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
-<label x="322.58" y="190.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR5" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="17"/>
-<wire x1="203.2" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
-<label x="190.5" y="175.26" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV2" gate="G$1" pin="9"/>
-<wire x1="320.04" y1="170.18" x2="327.66" y2="170.18" width="0.1524" layer="91"/>
-<label x="322.58" y="170.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR6" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="15"/>
-<wire x1="203.2" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
-<label x="190.5" y="177.8" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV2" gate="G$1" pin="7"/>
-<wire x1="320.04" y1="167.64" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
-<label x="322.58" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DIR4" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="19"/>
 <wire x1="203.2" y1="172.72" x2="190.5" y2="172.72" width="0.1524" layer="91"/>
 <label x="190.5" y="172.72" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="DIR2" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="7"/>
+<wire x1="320.04" y1="193.04" x2="327.66" y2="193.04" width="0.1524" layer="91"/>
+<label x="322.58" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="21"/>
+<wire x1="203.2" y1="170.18" x2="190.5" y2="170.18" width="0.1524" layer="91"/>
+<label x="190.5" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIR3" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="5"/>
+<wire x1="320.04" y1="190.5" x2="327.66" y2="190.5" width="0.1524" layer="91"/>
+<label x="322.58" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="23"/>
+<wire x1="203.2" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+<label x="190.5" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIR5" class="0">
+<segment>
+<pinref part="SV2" gate="G$1" pin="9"/>
+<wire x1="320.04" y1="170.18" x2="327.66" y2="170.18" width="0.1524" layer="91"/>
+<label x="322.58" y="170.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="15"/>
+<wire x1="203.2" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
+<label x="190.5" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIR6" class="0">
+<segment>
+<pinref part="SV2" gate="G$1" pin="7"/>
+<wire x1="320.04" y1="167.64" x2="327.66" y2="167.64" width="0.1524" layer="91"/>
+<label x="322.58" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="17"/>
+<wire x1="203.2" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
+<label x="190.5" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DIR4" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <wire x1="320.04" y1="187.96" x2="327.66" y2="187.96" width="0.1524" layer="91"/>
 <label x="322.58" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="25"/>
+<wire x1="203.2" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
+<label x="190.5" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENC1_B" class="0">
