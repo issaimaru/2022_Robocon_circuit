@@ -116,8 +116,8 @@
       | :---: | :---: | :--: |
       | PC_12 | UART1_TX | 足回りとの通信用 |
       | PD_2 | UART1_RX | 同様 |
-      | PF_7 | 🌠UART2_TX | マトリクスLEDとの通信用 |
-      | PF_6 | 🌠UART2_RX | 同様 |
+      | 🌠PF_7 | UART2_TX | マトリクスLEDとの通信用 |
+      | 🌠PF_6 | UART2_RX | 同様 |
       | 🌠PA_10 | PWM1 | モータ駆動用PWM出力ピン |
       | 🌠PB_3 | PWM2 | 同様 |
       | 🌠PB_5 | PWM3 | 同様 |
