@@ -11749,11 +11749,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="76.2" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="A" pin="49"/>
-<wire x1="154.94" y1="134.62" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
-<label x="139.7" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="185.42" x2="327.66" y2="185.42" width="0.1524" layer="91"/>
 <label x="322.58" y="185.42" size="1.778" layer="95"/>
@@ -11806,74 +11801,74 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="PWM6" class="0">
 <segment>
-<pinref part="JP6" gate="A" pin="37"/>
-<wire x1="203.2" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
-<label x="190.5" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="8"/>
 <wire x1="304.8" y1="167.64" x2="297.18" y2="167.64" width="0.1524" layer="91"/>
 <label x="297.18" y="167.64" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="PWM5" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="35"/>
 <wire x1="203.2" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 <label x="190.5" y="152.4" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="PWM5" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="10"/>
 <wire x1="304.8" y1="170.18" x2="297.18" y2="170.18" width="0.1524" layer="91"/>
 <label x="297.18" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="A" pin="37"/>
+<wire x1="203.2" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<label x="190.5" y="149.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM4" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="33"/>
-<wire x1="203.2" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="190.5" y="154.94" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="4"/>
 <wire x1="304.8" y1="187.96" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
 <label x="297.18" y="187.96" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="PWM3" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="31"/>
-<wire x1="203.2" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
-<label x="190.5" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="6"/>
-<wire x1="304.8" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
-<label x="297.18" y="190.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM2" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="29"/>
-<wire x1="203.2" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<label x="190.5" y="160.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SV1" gate="G$1" pin="8"/>
-<wire x1="304.8" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
-<label x="297.18" y="193.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PWM1" class="0">
 <segment>
 <pinref part="JP6" gate="A" pin="27"/>
 <wire x1="203.2" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
 <label x="190.5" y="162.56" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="PWM3" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="6"/>
+<wire x1="304.8" y1="190.5" x2="297.18" y2="190.5" width="0.1524" layer="91"/>
+<label x="297.18" y="190.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="29"/>
+<wire x1="203.2" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
+<label x="190.5" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="SV1" gate="G$1" pin="8"/>
+<wire x1="304.8" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
+<label x="297.18" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="31"/>
+<wire x1="203.2" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="190.5" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM1" class="0">
 <segment>
 <pinref part="SV1" gate="G$1" pin="10"/>
 <wire x1="304.8" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
 <label x="297.18" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="A" pin="33"/>
+<wire x1="203.2" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="190.5" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR1" class="0">
