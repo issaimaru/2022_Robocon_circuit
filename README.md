@@ -106,3 +106,85 @@
       | PA_8/D9 | ENC3_B | ロリコン3のB相 |
       | PB_5/D11 | ENC4_A | ロリコン4のA相 |
       | PA_11/D10 | ENC4_B | ロリコン4のB相 |
+      
+  - 国技館射出
+    - 回路図<br>
+      ![国技館射出](https://user-images.githubusercontent.com/80198387/199213701-0def5a7b-3f51-46c5-b0ae-15a8d4d2cb61.png)<br>
+      
+    - ピン配置<br>
+      | ピン番号 | 機能 | 備考 |
+      | :---: | :---: | :--: |
+      | PC_12 | UART_TX | 足回りとの通信用 |
+      | PD_2 | UART_RX | 同様 |
+      | PB_4 | PWM1 | モータ駆動用PWM出力ピン |
+      | PB_5 | PWM2 | 同様 |
+      | PB_3 | PWM3 | 同様 |
+      | PA_10 | PWM4 | 同様 |
+      | PA_2 | PWM5 | 同様 |
+      | PA_3 | PWM6 | 同様 |
+      | PB_10 | DIR1 | モータ回転方向信号出力ピン |
+      | PA_8 | DIR2 | 同様 |
+      | PA_9 | DIR3 | 同様 |
+      | PC_7 | DIR4 | 同様 |
+      | PB_6 | DIR5 | 同様 |
+      | PA_7 | DIR6 | 同様 |
+      | PD_5 | ENC1_B | ロリコン1のB相 |
+      | PD_6 | ENC1_A | ロリコン1のA相 |
+      | PD_7 | ENC2_B | ロリコン2のB相 |
+      | PE_3 | ENC2_A | ロリコン2のA相 |
+      | PF_1 | ENC3_B | ロリコン3のB相 |
+      | PF_0 | ENC3_A | ロリコン3のA相 |
+      | PD_1 | ENC4_B | ロリコン4のB相 |
+      | PD_0 | ENC4_A | ロリコン4のA相 |
+      | PG_0 | ENC5_B | ロリコン5のB相 |
+      | PE_1 | ENC5_A | ロリコン5のA相 |
+      | PG_9 | ENC6_B | ロリコン6のB相 |
+      | PG_12 | ENC6_A | ロリコン6のA相 |
+      | PD_14 | RED | テープLED 赤色 |
+      | PD_15 | GREEN | テープLED 緑色 |
+      | PE_9 | BLUE | テープLED 青色 |
+      | PF_11 | LED1 | 確認用LED(任意) |
+      | PE_0 | LED2 | 同様 |
+      | PG_8 | LED3 | 同様 |
+      | PG_5 | LED4 | 同様 |
+      | PG_6 | LED5 | 同様 |
+
+  - 国技館足回り
+    - 回路図<br>
+      ![国技館足回り](https://user-images.githubusercontent.com/80198387/199422710-bb65ea0e-a7b4-44d6-8f0d-4337bfc3b219.png)<br>
+      
+    - ピン配置<br>
+      | ピン番号 | 機能 | 備考 |
+      | :---: | :---: | :--: |
+      | PA_15 | UART1_TX | IM920sLとの通信用 |
+      | PB_7 | UART1_RX | 同様 |
+      | PA_11 | UART2_TX | 射出マイコンとの通信用 |
+      | PA_12 | UART2_RX | 同様 |
+      | D15/PB_8 | I2C_SCL | ジャイロモジュールとの通信用(SCL) |
+      | D14/PB_9 | I2C_SDA | ジャイロモジュールとの通信用(SDA) |
+      | D5/PB_4 | PWM1 | モータ駆動用PWM出力ピン |
+      | D4/PB_5 | PWM2 | 同様 |
+      | D3/PB_3 | PWM3 | 同様 |
+      | D2/PA_10 | PWM4 | 同様 |
+      | D6/PB_10 | DIR1 | モータ回転方向信号出力ピン |
+      | D7/PA_8 | DIR2 | 同様 |
+      | D8/PA_9 | DIR3 | 同様 |
+      | D9/PC_7 | DIR4 | 同様 |
+      | PA_13 | ENC1_B | ロリコン1のB相 |
+      | PA_14 | ENC1_A | ロリコン1のA相 |
+      | PC_14 | ENC2_B | ロリコン2のB相 |
+      | PC_15 | ENC2_A | ロリコン2のA相 |
+      | PH_0 | ENC3_B | ロリコン3のB相 |
+      | PH_1 | ENC3_A | ロリコン3のA相 |
+      | PC_2 | ENC4_B | ロリコン4のB相 |
+      | PC_3 | ENC4_A | ロリコン4のA相 |
+      | A1/PA_1 | SLEEP | IM920sLのSLEEPピン |
+      | A2/PA_4 | RESET | IM920sLのRESETピン |
+      | A3/PB_0 | STATUS | IM920sLのSTATUSピン |
+      | A4/PC_1 | XMIT | IM920sLのXMITピン |
+      | A6/PC_0 | BUSY | IM920sLのBUSYピン |
+      | PB_2 | LED1 | 確認用LED |
+      | PB_1 | LED2 | 同様 |
+      | PB_15 | LED3 | 同様 |
+      | PB_14 | LED4 | 同様 |
+      | PB_13 | LED5 | 同様 |
