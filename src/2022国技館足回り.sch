@@ -11543,9 +11543,9 @@ Source: www.kingbright.com</description>
 <label x="198.12" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="33"/>
-<wire x1="139.7" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
-<label x="127" y="96.52" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="19"/>
+<wire x1="139.7" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
+<label x="127" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM3" class="0">
@@ -11555,9 +11555,9 @@ Source: www.kingbright.com</description>
 <label x="198.12" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="31"/>
-<wire x1="139.7" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<label x="127" y="99.06" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="21"/>
+<wire x1="139.7" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
+<label x="127" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM2" class="0">
@@ -11567,9 +11567,9 @@ Source: www.kingbright.com</description>
 <label x="198.12" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="29"/>
-<wire x1="139.7" y1="101.6" x2="127" y2="101.6" width="0.1524" layer="91"/>
-<label x="127" y="101.6" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="23"/>
+<wire x1="139.7" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
+<label x="127" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM1" class="0">
@@ -11579,9 +11579,9 @@ Source: www.kingbright.com</description>
 <label x="198.12" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="27"/>
-<wire x1="139.7" y1="104.14" x2="127" y2="104.14" width="0.1524" layer="91"/>
-<label x="127" y="104.14" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="25"/>
+<wire x1="139.7" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
+<label x="127" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR4" class="0">
@@ -11591,9 +11591,9 @@ Source: www.kingbright.com</description>
 <label x="223.52" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="19"/>
-<wire x1="139.7" y1="114.3" x2="127" y2="114.3" width="0.1524" layer="91"/>
-<label x="127" y="114.3" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
+<wire x1="147.32" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
+<label x="152.4" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR3" class="0">
@@ -11603,9 +11603,9 @@ Source: www.kingbright.com</description>
 <label x="223.52" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="21"/>
-<wire x1="139.7" y1="111.76" x2="127" y2="111.76" width="0.1524" layer="91"/>
-<label x="127" y="111.76" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="6"/>
+<wire x1="147.32" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
+<label x="152.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR2" class="0">
@@ -11615,9 +11615,9 @@ Source: www.kingbright.com</description>
 <label x="223.52" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="23"/>
-<wire x1="139.7" y1="109.22" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<label x="127" y="109.22" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="16"/>
+<wire x1="147.32" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
+<label x="152.4" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIR1" class="0">
@@ -11627,9 +11627,9 @@ Source: www.kingbright.com</description>
 <label x="223.52" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="25"/>
-<wire x1="139.7" y1="106.68" x2="127" y2="106.68" width="0.1524" layer="91"/>
-<label x="127" y="106.68" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="34"/>
+<wire x1="147.32" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="152.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ENC1_B" class="0">
