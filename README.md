@@ -190,3 +190,45 @@
       | PB_15 | LED3 | 同様 |
       | PB_14 | LED4 | 同様 |
       | PB_13 | LED5 | 同様 |
+      
+  - 国技館コントローラ
+    - 回路図<br>
+      [2022国技館コントローラ.pdf](https://github.com/Issaimaru/2022_Robocon_circuit/files/9968881/2022.pdf)
+      
+    -ピン配置<br>
+      | ピン番号 | 機能 | 備考 |
+      | :---: | :---: | :--: |
+      | PC_10 | CK1_UP | 左十字キー↑ |
+      | PC_12 | CK1_LEFT | 左十字キー← |
+      | PD_2 | CK1_RIGHT | 左十字キー→ |
+      | PC_11 | CK1_DOWN | 左十字キー↓ |
+      | D3/PB_3 | CK2_UP | 右十字キー↑ |
+      | D5/PB_4 | CK2_LEFT | 右十字キー← |
+      | D4/PB_5 | CK2_RIGHT | 右十字キー→ |
+      | D2/PA_10 | CK2_DOWN | 右十字キー↓ |
+      | PB_14 | BL1 | 左トリガーL1 |
+      | PB_13 | BL2 | 左トリガーL2 |
+      | PB_1 | BR1 | 右トリガーR1 |
+      | PB_15 | BR2 | 右トリガーR2 |
+      | A0/PA_0 | L/R1 | 左アナログスティックx軸 |
+      | A1/PA_1 | U/D1 | 左アナログスティックy軸 |
+      | A2/PA_4 | L/R2 | 右アナログスティックx軸 |
+      | A3/PB_0 | U/D2 | 右アナログスティックy軸 |
+      | PA_13 | EME_SW | 非常停止スイッチ入力(HIGH:開 LOW:閉) |
+      | PA_15 | TX | IM920sL通信用 |
+      | PB_7 | RX | 同様 |
+      | PH_1 | XMIT | IM920sLのドキュメント参照 |
+      | PC_2 | SLEEP | 同様 |
+      | PC_3 | STATUS | 同様 |
+      | A6/PC_0 | BUSY | 同様 |
+      | A4/PC_1 | RESET | 同様 |
+      | D14/PB_9 | LED1 | 確認用LED |
+      | D15/PB_8 | LED2 | 同様 |
+      | PC_9 | LED3 | 同様 | 
+      | PC_8 | LED4 | 同様 |
+      | PC_6 | LED5 | 同様 |
+      
+    
+
+      
+  
