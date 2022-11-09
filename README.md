@@ -193,9 +193,9 @@
       
   - 国技館コントローラ
     - 回路図<br>
-      [2022国技館コントローラ.pdf](https://github.com/Issaimaru/2022_Robocon_circuit/files/9968881/2022.pdf)
+      ![国技館コントローラ](https://user-images.githubusercontent.com/80198387/200781753-c2ce0916-b5e8-4044-99a5-a1f258bbd0fb.png)
       
-    -ピン配置<br>
+    - ピン配置<br>
       | ピン番号 | 機能 | 備考 |
       | :---: | :---: | :--: |
       | PC_10 | CK1_UP | 左十字キー↑ |
