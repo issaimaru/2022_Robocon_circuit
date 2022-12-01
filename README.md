@@ -1,6 +1,8 @@
 # 2022_Robocon_circuit
 **2022年ロボコンの回路**<br>
-マスターブランチは保護されているので，各ブランチで必ずプルリクエストを送ってください．
+マスターブランチは保護されているので，各ブランチで必ずプルリクエストを送ってください．<br>
+
+他にも[自作MD](https://github.com/Issaimaru/MoterDriver_v1)と[自作電源基板](https://github.com/Issaimaru/PowerSupply_v1)とか[モババ電源分岐させるやつ](https://github.com/Issaimaru/USB_JST-XH_CONVERTER)とかいろいろ使ったけど不具合多く見つかって成仏しそうになった<br>
 
 回路図とピン配置をここに明記しておきます．<br>
 
